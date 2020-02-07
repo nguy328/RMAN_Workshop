@@ -10,9 +10,8 @@ This directory contains Vagrant build files to provision an Oracle Database auto
 3. Clone the vagrant-boxes repository `git clone https://github.com/oracle/vagrant-boxes`
 2. Change into the desired version folder
 3. Download the installation zip files from OTN into this folder - first time only:
-[http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html](http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html)
-<br />
-   IMAGE TO SHOW THE NECESSARY FILES AND SHOW THE PRE-DOWNLOADED VAGRANT FILE
+[http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html](http://www.oracle.com/technetwork/database/enterprise-edition/downloads/index.html)<br />
+   IMAGE TO SHOW THE NECESSARY FILES AND SHOW THE PRE-DOWNLOADED VAGRANT FILE <br />
 4. Run `vagrant up`
 5. Connect to the database via `vagrant ssh`
 6. You can shut down the box via the usual `vagrant halt` and the start it up again via `vagrant up`.
