@@ -50,4 +50,22 @@ This directory contains Vagrant build files to provision an Oracle Database auto
 10. Then get to that directory with `$cd /opt`
 11. Check whether the file is there `$ ls`<br />
     [IMAGE TO SHOW THE JAR FILE]<br />
-12. There are several
+12. There are several prereqs to run this jar file
+      - hostname
+      - private key
+      - public key fingerprint
+      - tenancy OCID
+      - compartment OCID
+      - user OCID
+      - bucketname (optional)
+      - wallet directory location (optional)
+      - library directory location (optional)
+      - configfile directory location (optional)
+      - Also to make this work you need tenancy-level access to Object Storage, can easily be done with admin access or you can create a policy that limits access to just the required resources<br />
+      
+      
+      Allow group <group_name> to manage objects in compartment <compartment_name> where target.bucket.name = '<bucket_name>'
+
+      Allow group <group_name> to read buckets in compartment <compartment_name>
+      
+      
