@@ -15,7 +15,7 @@ This directory contains Vagrant build files to provision an Oracle Database auto
 5. Connect to the database via `vagrant ssh`
 6. You can shut down the box via the usual `vagrant halt` and the start it up again via `vagrant up`.
 
-## Setting up the necessary installation procedures inside the Database instance
+## Retrieving and loading the necessary packages to the Database instance
 1. Install [JDK-8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
    - note: any JDK version 7 or higher will work, but some packages are archived on higher JDK versions such as 11 or 13
    - make sure that you install the linux x64 rpm file
@@ -26,5 +26,9 @@ This directory contains Vagrant build files to provision an Oracle Database auto
    `vagrant scp opc_installer.zip jdk-8u241-linux-x64.rpm :~`
 6. Connect to the database with `vagrant ssh`
 7. Check to see if the two files are there
+
+##  Installing the packages inside the Database instance
 8. run `su` to login to the root user 
 9. install the JDK with `$ rpm -ivh jdk-8u241-linux-x64.rpm`
+10. Check to see if java was installed properly with `$ java -v`
+11. Move the opc_installer.zip file to a root directory
