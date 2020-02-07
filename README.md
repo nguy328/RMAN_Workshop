@@ -40,4 +40,14 @@ This directory contains Vagrant build files to provision an Oracle Database auto
 1. run `su` to login to the root user 
 2. install the JDK with `$ rpm -ivh jdk-8u241-linux-x64.rpm`
 3. Check to see if java was installed properly with `$ java -v`
-4. Move the opc_installer.zip file to a root directory
+4. Unzip the opc_installer.zip file via `$ unzip opc_installer.zip`
+5. Get to the opc installer directory via `$ cd opc_installer`
+6. there are two folders inside <br />
+   [IMAGE TO SHOW THE CONTENTS OF opc_installer]<br />
+7. We will use the oci_installer this time so run `$ cd oci_installer`
+8. There should be a jar file called oci_install.jar `$ ls`
+9. Move that to the root directory, for example `$ mv oci_install.jar /opt`
+10. Then get to that directory with `$cd /opt`
+11. Check whether the file is there `$ ls`<br />
+    [IMAGE TO SHOW THE JAR FILE]<br />
+12. There are several
