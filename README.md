@@ -1,5 +1,5 @@
 # Lab 50: Prerequistes 
-
+Works as of 2/6/2020
 
 
 ## Creating an Oracle on-premise environment
