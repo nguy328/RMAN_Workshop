@@ -50,7 +50,10 @@ This directory contains Vagrant build files to provision an Oracle Database auto
 10. Then get to that directory with `$cd /opt`
 11. Check whether the file is there `$ ls`<br />
     [IMAGE TO SHOW THE JAR FILE]<br />
-12. There are several prereqs to run this jar file
+    
+    
+## Getting the prerequisites to run the JAR file
+There are several prereqs to run this jar file
       - hostname
       - private key
       - public key fingerprint
