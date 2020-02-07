@@ -25,3 +25,4 @@ This directory contains Vagrant build files to provision an Oracle Database auto
 5. then you want to scp the two files into the database instance:
 
    `vagrant scp opc_installer.zip jdk-8u241-linux-x64.rpm :~`
+6. Connect to the database with `vagrant ssh`
