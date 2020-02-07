@@ -31,7 +31,7 @@ This directory contains Vagrant build files to provision an Oracle Database auto
 # Lab 100: Configuring and using RMAN
 
 
-##  Instal the packages inside the Database instance
+##  Install the packages inside the Database instance
 1. run `su` to login to the root user 
 2. install the JDK with `$ rpm -ivh jdk-8u241-linux-x64.rpm`
 3. Check to see if java was installed properly with `$ java -v`
