@@ -1,6 +1,10 @@
 # Lab 50: Prerequistes 
 
+
+
 ## Creating an Oracle on-premise environment
+This directory contains Vagrant build files to provision an Oracle Database automatically, using Vagrant, an Oracle Linux 7 box and a shell script.(space, space)
+
 1. Install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 2. Install [Vagrant](https://vagrantup.com/)
 3. Clone the vagrant-boxes repository `git clone https://github.com/oracle/vagrant-boxes`
