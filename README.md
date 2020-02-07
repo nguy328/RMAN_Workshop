@@ -19,10 +19,12 @@ This directory contains Vagrant build files to provision an Oracle Database auto
 ## Retrieving and loading the necessary packages to the Database instance
 1. Install [JDK-8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
    - note: any JDK version 7 or higher will work, but some packages are archived on higher JDK versions such as 11 or 13
-   - make sure that you install the linux x64 rpm file
+   - make sure that you install the linux x64 rpm file <br />
+   [IMAGE TO SHOW THE JDK-8 FILE NEEDED]<br />
 2. Install the [Oracle Database Backup Module](https://www.oracle.com/database/technologies/oracle-cloud-backup-downloads.html)
 3. Install the vagrant-scp plugin `vagrant plugin install vagrant-scp`
-4. Move the opc_installer.zip and jdk-8u241-linux-x64.rpm file to your Oracle database directory
+4. Move the opc_installer.zip and jdk-8u241-linux-x64.rpm file to your Oracle database directory `mv ~/downloads/opc_installer.zip ~/downloads/jdk-8u241-linux-x64.rpm ~/vagrant-boxes/OracleDatabase/12.1.0.2</br>
+   [IMAGE TO SHOW THE MOVED FILES]</br>
 5. then you want to scp the two files into the database instance: <br />
    `vagrant scp opc_installer.zip jdk-8u241-linux-x64.rpm :~`
 6. Connect to the database with `vagrant ssh`
