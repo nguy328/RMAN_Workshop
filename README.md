@@ -13,6 +13,6 @@
 
 ## Setting up the necessary installation procedures inside the Database instance
 1. Install [JDK-8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
-note: any JDK version 7 or higher will work, but some packages are archived on higher JDK versions such as 11 or 13
+   note: any JDK version 7 or higher will work, but some packages are archived on higher JDK versions such as 11 or 13
 2. Install the [Oracle Database Backup Module](https://www.oracle.com/database/technologies/oracle-cloud-backup-downloads.html)
 3. Install the vagrant-scp plugin `vagrant plugin install vagrant-scp`
