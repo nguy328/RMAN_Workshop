@@ -24,5 +24,5 @@ This directory contains Vagrant build files to provision an Oracle Database auto
 4. Move the opc_installer.zip and jdk-8u241-linux-x64.rpm file to your Oracle database directory
 5. then you want to scp the two files into the database instance:
 
-   vagrant scp opc_installer.zip :~
-   vagrant scp jdk-8u241-linux-x64.rpm :~
+   `vagrant scp opc_installer.zip :~`
+   `vagrant scp jdk-8u241-linux-x64.rpm :~`
