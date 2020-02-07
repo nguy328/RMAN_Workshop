@@ -22,3 +22,7 @@ This directory contains Vagrant build files to provision an Oracle Database auto
 2. Install the [Oracle Database Backup Module](https://www.oracle.com/database/technologies/oracle-cloud-backup-downloads.html)
 3. Install the vagrant-scp plugin `vagrant plugin install vagrant-scp`
 4. Move the opc_installer.zip and jdk-8u241-linux-x64.rpm file to your Oracle database directory
+5. then you want to scp the two files into the database instance:
+
+   vagrant scp opc_installer.zip :~
+   vagrant scp jdk-8u241-linux-x64.rpm :~
