@@ -27,8 +27,12 @@ This directory contains Vagrant build files to provision an Oracle Database auto
 6. Connect to the database with `vagrant ssh`
 7. Check to see if the two files are there
 
-##  Installing the packages inside the Database instance
-8. run `su` to login to the root user 
-9. install the JDK with `$ rpm -ivh jdk-8u241-linux-x64.rpm`
-10. Check to see if java was installed properly with `$ java -v`
-11. Move the opc_installer.zip file to a root directory
+
+# Lab 100: Configuring and using RMAN
+
+
+##  Instal the packages inside the Database instance
+1. run `su` to login to the root user 
+2. install the JDK with `$ rpm -ivh jdk-8u241-linux-x64.rpm`
+3. Check to see if java was installed properly with `$ java -v`
+4. Move the opc_installer.zip file to a root directory
